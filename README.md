@@ -31,7 +31,7 @@
 | `git config --global user.name "Seu Nome"`     | Define seu nome de usuário para commits.              |
 | `git config --global user.email "seu@email.com"` | Define seu e-mail para commits.                     |
 | `git config --global --unset user.name` | Remove o name do usuário.                     |
-| `git config --global --unset user.email"` | Remove o email do usuário.                     |
+| `git config --global --unset user.email` | Remove o email do usuário.                     |
 | `git credential-cache exit`                     | Remove as credenciais armazenadas em cache.           |
 | `git config --global credential.helper store`   | Armazena as credenciais em um arquivo de texto.       |
 | `git config --global credential.helper cache`   | Armazena as credenciais em memória temporariamente.   |
