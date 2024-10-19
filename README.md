@@ -5,7 +5,8 @@
 | **Comando**                                   | **Descrição**                                       |
 |-----------------------------------------------|-----------------------------------------------------|
 | `git init`                                    | Inicializa um repositório.                          |
-| `git clone <URL-do-repositório>`             | Clona um repositório existente.                     |
+| `git clone <URL-do-repositório>`             | Clona um repositório existente.                   
+  |
 | `git status`                                  | Verifica o status do repositório.                   |
 | `git add <nome-do-arquivo>`                  | Adiciona arquivos ao índice (staging).              |
 | `git add .`                                   | Adiciona todos os arquivos ao índice.               |
@@ -46,3 +47,38 @@
 | **Para Configurar um Token de Acesso Pessoal:** |                                                     |
 | Acesse **GitHub > Settings > Developer settings > Personal access tokens** | Crie e gerencie tokens de acesso.  |
 
+
+# Commits Semânticos
+
+## Estrutura de uma Mensagem de Commit Semântico
+
+| **Parte**          | **Descrição**                                                                                                  |
+|--------------------|----------------------------------------------------------------------------------------------------------------|
+| **Tipo**           | Descreve a natureza da mudança (ex: `feat`, `fix`, `docs`, etc.).                                            |
+| **Escopo**         | Um substantivo que descreve uma seção do código afetada (opcional).                                           |
+| **Descrição**      | Um resumo breve das mudanças feitas, escrita no modo imperativo.                                            |
+| **Corpo**          | Explicações adicionais sobre a mudança, como a razão por trás dela (opcional).                               |
+| **Rodapé**         | Informações sobre mudanças importantes ou referências a issues (opcional).                                   |
+
+## Tipos Comuns de Commits
+
+| **Tipo**   | **Descrição**                                              |
+|------------|-----------------------------------------------------------|
+| `feat`     | Uma nova funcionalidade para o usuário.                   |
+| `fix`      | Uma correção de bug para o usuário.                       |
+| `docs`     | Alterações na documentação.                                |
+| `style`    | Mudanças que não afetam o significado do código.          |
+| `refactor` | Mudança de código que não corrige um bug nem adiciona uma funcionalidade. |
+| `perf`     | Mudança de código que melhora o desempenho.               |
+| `test`     | Adicionando testes que estavam faltando ou corrigindo testes existentes. |
+| `chore`    | Alterações no processo de build ou ferramentas auxiliares. |
+
+## Exemplos de Mensagens de Commit Semântico
+
+| **Mensagem de Commit**                               | **Descrição**                                         |
+|-----------------------------------------------------|-------------------------------------------------------|
+| `feat(auth): add login functionality`               | Adiciona funcionalidade de login.                     |
+| `fix(ui): resolve popup not opening`                | Corrige um problema com o popup que não abria.       |
+| `docs(README): update installation instructions`    | Atualiza as instruções de instalação.                 |
+| `refactor(api): restructure user service`           | Reestrutura o serviço de usuário para melhor legibilidade. |
+| `perf(performance): optimize image loading speed`   | Otimiza a velocidade de carregamento de imagens.      |
