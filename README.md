@@ -5,8 +5,7 @@
 | **Comando**                                   | **Descrição**                                       |
 |-----------------------------------------------|-----------------------------------------------------|
 | `git init`                                    | Inicializa um repositório.                          |
-| `git clone <URL-do-repositório>`             | Clona um repositório existente.                   
-  |
+| `git clone <URL-do-repositório>`             | Clona um repositório existente.                   |
 | `git status`                                  | Verifica o status do repositório.                   |
 | `git add <nome-do-arquivo>`                  | Adiciona arquivos ao índice (staging).              |
 | `git add .`                                   | Adiciona todos os arquivos ao índice.               |
